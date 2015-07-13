@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LeetCodeSolutions.Problems;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +11,7 @@ namespace LeetCodeSolutions
     {
         static void Main(string[] args)
         {
-            //IsPalindrome(int x);
+            bool result = Palindrome.TestPalindromes(); //true = pass, false = fail
         }
     }
 }
